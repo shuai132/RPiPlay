@@ -140,7 +140,7 @@ raop_handler_info(raop_conn_t *conn,
     plist_t displays_0_height_pixels_node = plist_new_uint(1080);
     plist_t displays_0_rotation_node = plist_new_bool(0);
     plist_t displays_0_refresh_rate_node = plist_new_real(1.0 / 60.0);
-    plist_t displays_0_overscanned_node = plist_new_bool(1);
+    plist_t displays_0_overscanned_node = plist_new_bool(0);
     plist_t displays_0_features = plist_new_uint(14);
 
     plist_dict_set_item(displays_0_node, "uuid", displays_0_uuid_node);
